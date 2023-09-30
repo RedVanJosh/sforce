@@ -2,23 +2,17 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_404.tsx";
-import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/api/v1/_middleware.ts";
-import * as $3 from "./routes/api/v1/isml/[format].ts";
-import * as $4 from "./routes/api/v1/newstore/orderEvent.ts";
-import * as $5 from "./routes/authorization/_middleware.ts";
-import * as $6 from "./routes/authorization/token.ts";
+import * as $0 from "./routes/api/v59.0/_middleware.ts";
+import * as $1 from "./routes/api/v59.0/classes/[className].ts";
+import * as $2 from "./routes/authorization/_middleware.ts";
+import * as $3 from "./routes/authorization/token.ts";
 
 const manifest = {
   routes: {
-    "./routes/_404.tsx": $0,
-    "./routes/_app.tsx": $1,
-    "./routes/api/v1/_middleware.ts": $2,
-    "./routes/api/v1/isml/[format].ts": $3,
-    "./routes/api/v1/newstore/orderEvent.ts": $4,
-    "./routes/authorization/_middleware.ts": $5,
-    "./routes/authorization/token.ts": $6,
+    "./routes/api/v59.0/_middleware.ts": $0,
+    "./routes/api/v59.0/classes/[className].ts": $1,
+    "./routes/authorization/_middleware.ts": $2,
+    "./routes/authorization/token.ts": $3,
   },
   islands: {},
   baseUrl: import.meta.url,

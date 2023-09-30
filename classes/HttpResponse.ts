@@ -17,6 +17,7 @@ interface HttpResponse {
 class HttpResponse {
     constructor () {
         this.status = '';
+        this.payload = {};
     }
 }
 
